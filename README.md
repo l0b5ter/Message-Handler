@@ -11,7 +11,7 @@ Do prefix commands to see all commands.
 Wanna add more commands to your bot? Just look at one of the commands and see how i managed to do it^^
 
 ## How to get started
-1. Download the "Message-Handler" repositories.
+1. Download the "Message-Handler" repository.
 
 2. Move the folder MsgModule into your bot folder.
 
@@ -21,7 +21,8 @@ At the top add these lines:
 ```var jsfiles;
 client.commands = new Discord.Collection();
 var Collection = client.commands;
-const fs = require("fs");```
+const fs = require("fs");
+```
 So it becomes something like this
 <img>[![CodeTop](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)
 
@@ -32,7 +33,8 @@ like this
 
 Finnaly we add the last bit of code needed to get it to work. which is under the "client.on('message', message => {" or "bot.on('message', message => {".
 ``` var Collection = client.commands;
-	var Collection  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);```
+	var Collection  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);
+```
 like this
 <img>[![CodeMsg](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMSg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
