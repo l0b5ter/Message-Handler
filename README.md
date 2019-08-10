@@ -36,7 +36,7 @@ Finnaly we add the last bit of code needed to get it to work. which is under the
 	var Collection  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);
 ```
 like this
-<img>[![CodeMsg](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMSg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
+<img>[![CodeMsg](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
 4. DONE^^
 
