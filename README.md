@@ -1,6 +1,6 @@
 # Message-Handler
 Easier and simpler command handling!
-No longer need to restart your bot when your editing a command or wanna add/remove one^^
+No longer need to restart your bot when your editing a command or want to add/remove one^^
 
 Features:
 - built in reload function(instead of restarting bot do reload to load in all your commands).
