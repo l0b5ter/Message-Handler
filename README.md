@@ -11,11 +11,11 @@ Do prefix commands to see all commands.
 Wanna add more commands to your bot? Just look at one of the commands and see how i managed to do it^^
 
 ## How to get started
-1. Download the "Message-Handler" repository.
+### 1. Download the "Message-Handler" repository.
 
-2. Move the folder MsgModule into your bot folder.
+### 2. Move the folder MsgModule into your bot folder.
 
-3. Add some line of code to your main bot file (bot.js)
+### 3. Add some line of code to your main bot file (bot.js)
 
 At the top add these lines:
 ```var jsfiles;
@@ -38,7 +38,7 @@ Finnaly we add the last bit of code needed to get it to work. which is under the
 like this
 <img>[![CodeMsg](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
-4. DONE^^
+### 4. DONE^^
 
 
 ## Join Me
