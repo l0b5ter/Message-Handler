@@ -27,14 +27,14 @@ So it becomes something like this
 <img>[![CodeTop](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)
 
 Then under "client.on('ready', () => {" or "bot.on('ready', () => {" put this:
-```[jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);```
+   ```[jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);```
 like this
 <img>[![CodeReady](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)
 
 Finnaly we add the last bit of code needed to get it to work. which is under the "client.on('message', message => {" or "bot.on('message', message => {".
-``` var Collection2  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);
-	Collection = Collection2;
-```
+```var Collection2  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);```
+```Collection = Collection2;```
+	
 like this
 <img>[![CodeMsg](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
