@@ -27,7 +27,9 @@ So it becomes something like this
 <img>[![CodeTop](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)
 
 Then under "client.on('ready', () => {" or "bot.on('ready', () => {" put this:
-   ```[jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);```
+   ```
+   [jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);
+   ```
 like this
 <img>[![CodeReady](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)
 
