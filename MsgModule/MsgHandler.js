@@ -28,8 +28,8 @@ try {
                 }
 	});
 var Collection = client.commands;
-console.log(Collection);
-console.log(jsfiles);
+//console.log(Collection);
+//console.log(jsfiles);
 return [jsfiles, Collection];	
 };
 
@@ -41,19 +41,19 @@ module.exports.run = (client, message, prefix, jsfiles2, ChannelPost, Collection
 		const args = message.content.slice(prefix.length).trim().split(/ +/g);
 		const command = args.shift().toLowerCase();
 		console.log(command);
-		console.log(Collection);
+		//console.log(Collection);
 		cmd = Collection.get(command);
-		console.log(jsfiles);
+		//console.log(jsfiles);
 		if (command.startsWith("reload")) {
 			for(y = -1; y < (jsfiles.length-1); y++){
 				var NoFileEnding = jsfiles[y+1].split(".");
 				delete require.cache[require.resolve("./Command/" + NoFileEnding[0] + ".js")];
 				Collection.delete(NoFileEnding[0]);
 			}
-			console.log(jsfiles);
-			console.log(Collection);
+			//console.log(jsfiles);
+			//console.log(Collection);
 			[jsfiles, Collection] = require("./MsgHandler.js").GetCommands(client);
-			console.log(jsfiles);
+			//console.log(jsfiles);
 			let embed = new Discord.RichEmbed()
 				.setColor(0x0079a8)
 				.setAuthor(jsfiles.length + " commands loaded!","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVSzdCGu6MjAn94W4YvAVHuts6o2ggLGeyFfsxjF50rpwkbmP")				
