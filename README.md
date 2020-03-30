@@ -50,3 +50,7 @@ like this
 
 
 
+
+
+#### Wanna support my work?                                                    
+[![Become a Patron!](https://i.imgur.com/BbE01dL.png)](https://www.patreon.com/bePatron?u=31657981)
