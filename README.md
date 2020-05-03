@@ -24,14 +24,14 @@ var Collection = client.commands;
 const fs = require("fs");
 ```
 So it becomes something like this
-<img>[![CodeTop](http://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)
+<img>[![CodeTop](http://wiad.tk/images/Msg-Handler/MsgHandlerJsTop.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsTop.PNG)
 
 Then under "client.on('ready', () => {" or "bot.on('ready', () => {" put this:
    ```
    [jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);
    ```
 like this
-<img>[![CodeReady](http://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)
+<img>[![CodeReady](http://wiad.tk/images/Msg-Handler/MsgHandlerJsReady.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsReady.PNG)
 
 Finnaly we add the last bit of code needed to get it to work. which is under the "client.on('message', message => {" or "bot.on('message', message => {".
  ```
@@ -40,13 +40,13 @@ Collection = Collection2;
 ```
 	
 like this
-<img>[![CodeMsg](http://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
+<img>[![CodeMsg](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)](https://wad0.000webhostapp.com/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
 ### 4. DONE^^
 
 
 ## Join Me
-<img>[![DiscordLink](https://wad0.000webhostapp.com/images/Logo_WiAD.png)](https://discord.io/JrHcNuE)
+<img>[![DiscordLink](https://wiad.tk/images/Logo_WiAD.png)](https://discord.io/JrHcNuE)
 
 
 
