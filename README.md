@@ -8,12 +8,16 @@ Features:
 - 2 commands included in the command foler(userinfo.js and ping.js).
 Do prefix + commands to see all commands.
 
-3rd party commands created:
+## 3rd party commands created:
 |Title|Author|Description|
 |:-|:-:|:-|
 |[PS2stats](https://github.com/l0b5ter/PS2stats-for-message-handler) |l0b5ter |Show planetside2 players info! This works with every pc server including ps4 servers.|
 
 Wanna add more commands to your bot? Just look at one of the commands and see how i managed to do it^^
+
+
+
+
 
 ## How to get started
 ### 1. Download the "Message-Handler" repository.
