@@ -61,7 +61,7 @@ like this
 client.on('message', message => {
 	var Collection2  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);
 	Collection = Collection2;
-
+});
 ```
 <img>[![CodeMsg](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
