@@ -21,9 +21,19 @@ At the top add these lines:
 ```var jsfiles;
 client.commands = new Discord.Collection();
 var Collection = client.commands;
+var jsfiles = new Array();
 const fs = require("fs");
 ```
 So it becomes something like this
+```const Discord = require("discord.js");
+const client = new Discord.Client();
+const { token, prefix, ChannelPost } = require('./config.json');
+client.commands = new Discord.Collection();
+var Collection = client.commands;
+var jsfiles = new Array();
+const fs = require("fs");
+
+```
 <img>[![CodeTop](http://wiad.tk/images/Msg-Handler/MsgHandlerJsTop.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsTop.PNG)
 
 Then under "client.on('ready', () => {" or "bot.on('ready', () => {" put this:
@@ -31,6 +41,13 @@ Then under "client.on('ready', () => {" or "bot.on('ready', () => {" put this:
    [jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);
    ```
 like this
+ ```
+client.on('ready', () => {
+	console.log('The bot is Online!');
+	[jsfiles, Collection] = require("./MsgModule/MsgHandler.js").GetCommands(client);
+});
+
+```
 <img>[![CodeReady](http://wiad.tk/images/Msg-Handler/MsgHandlerJsReady.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsReady.PNG)
 
 Finnaly we add the last bit of code needed to get it to work. which is under the "client.on('message', message => {" or "bot.on('message', message => {".
@@ -40,6 +57,12 @@ Collection = Collection2;
 ```
 	
 like this
+ ```
+client.on('message', message => {
+	var Collection2  = require("./MsgModule/MsgHandler.js").run(client, message, prefix, jsfiles, ChannelPost, Collection);
+	Collection = Collection2;
+
+```
 <img>[![CodeMsg](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
 ### 4. DONE^^
