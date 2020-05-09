@@ -44,7 +44,6 @@ var jsfiles = new Array();
 const fs = require("fs");
 
 ```
-<img>[![CodeTop](http://wiad.tk/images/Msg-Handler/MsgHandlerJsTop.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsTop.PNG)
 
 Then under "client.on('ready', () => {" or "bot.on('ready', () => {" put this:
    ```
@@ -58,7 +57,6 @@ client.on('ready', () => {
 });
 
 ```
-<img>[![CodeReady](http://wiad.tk/images/Msg-Handler/MsgHandlerJsReady.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsReady.PNG)
 
 Finnaly we add the last bit of code needed to get it to work. which is under the "client.on('message', message => {" or "bot.on('message', message => {".
  ```
@@ -73,7 +71,6 @@ client.on('message', message => {
 	Collection = Collection2;
 });
 ```
-<img>[![CodeMsg](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)](http://wiad.tk/images/Msg-Handler/MsgHandlerJsMsg.PNG)
 
 ### 4. DONE^^
 
