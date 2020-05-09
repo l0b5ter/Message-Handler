@@ -12,7 +12,7 @@ Do prefix + commands to see all commands.
 |Title|Author|Description|
 |:-|:-:|:-|
 |[PS2stats](https://github.com/l0b5ter/PS2stats-for-message-handler) |l0b5ter |Show planetside2 players info! This works with every pc server including ps4 servers.|
-|[COVID-19](https://github.com/l0b5ter/COVID19-for-message-handler)\n [Corona](https://github.com/l0b5ter/Corona-for-message-handler) |l0b5ter |Keep track of Corona Virus(COVID-19) cases via rapidapi API|
+|[COVID-19](https://github.com/l0b5ter/COVID19-for-message-handler) \ [Corona](https://github.com/l0b5ter/Corona-for-message-handler) |l0b5ter |Keep track of Corona Virus(COVID-19) cases via rapidapi API|
 
 Wanna add more commands to your bot? Just look at one of the commands and see how i managed to do it^^
 
